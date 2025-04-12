@@ -210,6 +210,27 @@ p
     left: 0;
     height: 100%;
     background: #03a9f4;
-
-
+}
+@media (max-width: 1000px)
+{
+    .container
+    {
+        margin: 10px;
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+@media (max-width: 600px)
+{
+    .objective .box
+    {
+        flex-direction: column;
+    }
+    .objective .box .year_company
+    {
+        margin-bottom: 5px;
+    }
+    .skills .box
+    {
+        grid-template-columns: repeat(1,1fr);
+    }
 }
