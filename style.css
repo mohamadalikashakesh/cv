@@ -4,7 +4,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
-
 }
 body
 {
@@ -73,16 +72,13 @@ overflow: hidden;
     font-size: 0.8em;
     font-weight: 300;
 }
-.contactinfo
-{
-    padding-top: 40px;
-}
 .title
 {
-    color: #fff;
+    color: #03a9f4;  
     text-transform: uppercase;
-    font-weight: 600;
     letter-spacing: 1px;
+    margin-bottom: 10px;
+    margin-top: 30px;
     margin-bottom: 20px;
 }
 .contactinfo ul
@@ -107,13 +103,17 @@ overflow: hidden;
 }
 .contactinfo.education h5
 {
-    color: #03a9f4;
-    font-weight: 500;
+    text-transform: uppercase;
+    color: #848c90;
+    font-weight: 600;
+    min-width: 150px;
+
 }
 .contactinfo.education h4
 {
-    color: #fff;
-    font-weight: 300;
+    text-transform: uppercase;
+    color: #2a7da2;
+    font-size: 16px;
 }
 .contactinfo.language .percent
 {
@@ -162,7 +162,7 @@ p
 .objective .box
 {
     display: flex;
-    flex-direction: row;
+    flex-direction:row;
     margin: 20px 0;
 }
 .objective .box .year_company
